@@ -1,3 +1,16 @@
+<!--## Creator
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-creative/blob/gh-pages/LICENSE) license. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,15 +25,18 @@
     <title>Mauro's Portfolio</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,32 +47,29 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <span class="light">Portfolio -</span> Mauro Amarante
-                </a>
+                <a class="navbar-brand page-scroll" href="#page-top">Portfolio -</span> Mauro Amarante</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About me</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About Me</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#academic">Academic info</a>
+                        <a class="page-scroll" href="#services">Academic info</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#projects">Projects</a>
@@ -68,33 +81,28 @@
             </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Welcome</h1>
-                        <p class="intro-text">Hi! My name is Mauro Amarante and I'm currently a Computer Science student. Take a look into my portfolio and get to know me. Enjoy! </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Professional Portfolio</h1>
+                <hr>
+                <p>Mauro Amarante Esparza</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">About me</a>
             </div>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8">
-                <h2>About Me</h2>
-                <p>I am from Monterrey, Mexico and currently studying my 5<sup>th</sup> semester of Computer Science at Instituto Tecnológico de Monterrey.</p>
-                <p>I am a very dedicated and kind of a perfectionist person that considers that any job that needs to be done requires dedication and quality. Both of these aspects describe me perfectly and help me comply my objective of becoming one of the best in my profession. Some other of my objectives are: 
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8">
+                   <h2 class="section-heading text-center">About me</h2>
+                    <hr class="light">
+                    <p>I am from Monterrey, Mexico and currently I'm about to beign my 7<sup>th</sup> semester of Computer Science at Instituto Tecnológico de Monterrey.</p>
+                    <p>I am a very dedicated and kind of a perfectionist person that considers that any job that needs to be done requires dedication and quality. Both of these aspects describe me perfectly and help me comply my objective of becoming one of the best in my profession. Some other of my objectives are: 
                     <ul class="list">
                     <li>Always develop high-quality work</li>
                     <li>Learn something new every day</li>
@@ -102,126 +110,489 @@
                     <li>Capitalize any opportunity that may enrich my profesional career</li>
                     <li>Never satisfy with what I have done, improvements can always be made</li>
                     <li>Always work complying with the stablished principles in coding and design</li></ul></p>
-            </div>
-            <div class="col-lg-4">
-                <div class="photo">
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <div class="photo">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Academic Info Section -->
-    <section id="academic" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Academic Information</h2>
-                <div class="col-lg-6">
-                    <p>
-                        <b>School:</b> Instituto Tecnológico de Monterrey (ITESM)<br>
-                        <b>Career:</b> B.S. Computer Science and Technology / ITC (Ingeniero en Tecnologías Computacionales)<br>
-                        <b>Cumulative GPA:</b> 91/100<br><br>
-                        <a href="https://www.dropbox.com/s/iaiqqthoiz3uwip/Academic%20Program%20-%20B.S.%20Computer%20Science%20and%20Technology%20%40ITESM.xlsx?dl=0">Academic Program Progress</a><br><br>
-                        <b>Current courses:</b>
-                        <ul class="list">
-                            <li>Entrepreneurship (Course with project)</li>
-                            <li>Software Quality and Testing</li>
-                            <li>Mobile Application Development Projects (Course with project)</li>
-                            <li>Project Evaluation and Management</li>
-                            <li>Advanced Programming</li>
-                        </ul>
-                    </p>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Academic Information</h2>
+                    <hr class="primary">
                 </div>
-                <div class="col-lg-6">
-                        <p>
-                            <b>Activities/Experiences:</b><br>
-                            <table class="table" style="width:100%">
-                                <tr>
-                                    <td>Januray - April 2014</td>
-                                    <td><b>ACM Programming Contest (Top Tec):</b><br>16th place in Top Tec programming contest.</td> 
-                                </tr>
-                                <tr>
-                                    <td>January - October 2014</td>
-                                    <td><b>ACM Student Chapter:</b><br>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-university text-primary sr-icons"></i>
+                        <h3>University</h3>
+                        <p class="text-muted">Instituto Tecnológico de Estudios Superiores de Monterrey (ITESM)</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
+                        <h3>College Degree</h3>
+                        <p class="text-muted">B.S. Computer Science and Technology / ITC (Ingeniero en Tecnologías Computacionales)</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-pencil-square-o text-primary sr-icons"></i>
+                        <h3>Cumulative GPA</h3>
+                        <p class="text-muted">92/100</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-tasks text-primary sr-icons"></i>
+                        <h3>Academic Program Progress</h3>
+                        <p class="text-muted"><a href="https://www.dropbox.com/s/iaiqqthoiz3uwip/Academic%20Program%20-%20B.S.%20Computer%20Science%20and%20Technology%20%40ITESM.xlsx?dl=0">Link</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Activities/Experiences:</h2>
+            </div>
+        </div>
+    </aside>
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/acmTopTec.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Januray - April 2014
+                                </div>
+                                <div class="project-name">
+                                    <b>ACM Programming Contest (Top Tec):</b><br>16th place in Top Tec programming contest.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/hackathon7.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    January - October 2014
+                                </div>
+                                <div class="project-name">
+                                    <b>ACM Student Chapter:</b><br>
                                         Student Volunteer in ACM activities:<br>
-                                        Facebook hackathon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;October 2014<br>
-                                        Hackathon 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 2015</td> 
-                                </tr>
-                                <tr>
-                                    <td>September 2014 - Present</td>
-                                    <td><b>INC Monterrey (Innovate. Network. Create)</b><br>
-                                        Student volunteer in INC Monterrey</td> 
-                                </tr>
-                                <tr>
-                                    <td>November 2014 - Present</td>
+                                        <table style="width:100%">
+                                        <tr><td>Facebook hackathon</td>
+                                        <td>October 2014</td></tr>
+                                        <tr><td>Hackathon 8</td>
+                                        <td>March 2015</td></tr>
+                                        </table>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/INC.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    September 2014 - November 2014
+                                </div>
+                                <div class="project-name">
+                                    <b>INC Monterrey (Innovate. Network. Create)</b><br>
+                                        Student volunteer in INC Monterrey
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/vice.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    November 2014 - November 2015
+                                </div>
+                                <div class="project-name">
                                     <td><b>Vice-president of ACM Student Chapter at ITESM - Monterrey:</b><br>
                                         Organization of the events:<br>
-                                        HackMTY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;March 2015<br>
-                                        Top Tec programmer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;January - May 2015<br>
-                                        Top Teen programmer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;September - October 2015<br>
-                                        ICPC Training Camp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;September 2015</td> 
-                                        Social hackathon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;October 2015</td> 
-                                </tr>
-                                <tr>
-                                    <td>November 2014</td>
-                                    <td><b>HackCon II:</b><br>
-                                        Attended hackathon convention in New York organized by the MLH.</td> 
-                                </tr>
-                                <tr>
-                                    <td>March 2015</td>
-                                    <td><b>HackMTY:</b><br>
-                                        Oganized with my team ACM Monterrey and became the biggest student hackathon in Mexico. Won best student event of the year.</td> 
-                                </tr>
-                                <tr>
-                                    <td>June 2015</td>
+                                        <table class="tableBig" style="width:100%">
+                                        <tr><td>HackMTY</td>
+                                        <td>March 2015</td></tr>
+                                        <tr><td>Top Tec programmer</td>
+                                        <td>January - May 2015</td></tr>
+                                        <tr><td>Top Teen programmer</td>
+                                        <td>September - October 2015</td></tr>
+                                        <tr><td>ICPC Training Camp</td>
+                                        <td>September 2015</td></tr>
+                                        <tr><td>Social hackathon</td>
+                                        <td>October 2015</td></tr>
+                                        </table> 
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/hackcon.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    February 2015
+                                </div>
+                                <div class="project-name">
+                                    <b>HackCon II:</b><br>
+                                        Attended hackathon convention in New York organized by the MLH.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/hackmty.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    March 2015
+                                </div>
+                                <div class="project-name">
+                                    <b>HackMTY:</b><br>
+                                        Oganized with my team ACM Monterrey and became the biggest student hackathon in Mexico. Won best student event of the semester.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/rusia.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    June 2015
+                                </div>
+                                <div class="project-name">
                                     <td><b>Study Abroad ITMO University Rusia:</b><br>
                                         Took a Machine Learning and Competitive Programming course at ITMO University in St. Petersburg Rusia.</td> 
-                                </tr>
-                                <tr>
-                                    <td>August 2015</td>
-                                    <td><b>Student Volunteer Siggraph 2015:</b><br>
-                                        Attended the conference as a student volunteer in LA.</td> 
-                                </tr>
-                                <tr>
-                                    <td>September 2015</td>
-                                    <td><b>Apple Advocate Team Member:</b><br>
-                                        Hired by Apple to work as an Apple Advocate at ITESM Monterrey Campus.</td> 
-                                </tr>
-                                <tr>
-                                    <td>November 2015</td>
-                                    <td><b>President of ACM Student Chapter at ITESM - Monterrey:</b><br>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/siggraph.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    August 2015
+                                </div>
+                                <div class="project-name">
+                                    <b>Student Volunteer Siggraph 2015:</b><br>
+                                        Attended the conference as a student volunteer in LA.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/apple.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    September 2015
+                                </div>
+                                <div class="project-name">
+                                    <b>Apple Advocate Team Member:</b><br>
+                                        Hired by Apple to work as an Apple Advocate at ITESM Monterrey Campus.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/presi.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    November 2015
+                                </div>
+                                <div class="project-name">
+                                    <b>President of ACM Student Chapter at ITESM - Monterrey:</b><br>
                                         Future and current organization of the events:<br>
-                                        HackMTY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;February 2016<br>
-                                        Top Tec programmer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;January - March 2016<br>
-                                        Top Teen programmer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;September - October 2016<br>
-                                        HackMTY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;August 2016<br>
-                                        Hack Club&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;August - November 2016<br>
-                                </tr>
-                        </table>
-                        </p>
+                                        <table class="tableBig" style="width:100%">
+                                        <tr><td>HackMTY</td>
+                                        <td>February 2016</td></tr>
+                                        <tr><td>Top Tec programmer</td>
+                                        <td>January - March 2016</td></tr>
+                                        <tr><td>Top Teen programmer</td>
+                                        <td>September - October 2016</td></tr>
+                                        <tr><td>HackMTY</td>
+                                        <td>August 2016</td></tr>
+                                        <tr><td>Hack Club</td>
+                                        <td>August - November 2016</td></tr>
+                                        </table>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img src="img/portfolio/hackmty2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    February 2016
+                                </div>
+                                <div class="project-name">
+                                    <b>HackMTY 2016:</b><br>
+                                        Oganized with my team ACM Monterrey and became the biggest student hackathon in Mexico. Won best student event of the semester.
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
-    	<div>
-    		<div class="container">
-    		</div>
-    	</div>
+    <section class="no-padding" id="projects">
+        <!-- Page Heading -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-top:100px">
+                    <h2 class="section-heading">Projects</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Content -->
+        <div class="container">
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/app.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Mobile Application Development class final project</h3>
+                    <h4>April 2016 - May 2016</h4>
+                    <p>Mobile Application Development class final project. App for iOS devices that helps older adults to take their daily medications. </p>
+                    <a class="btn btn-primary" href="https://github.com/mauro94/OrganiPill">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/hack2.jpg" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>HackMTY - Hackahton organized by ACM Monterrey</h3>
+                    <h4>Febraury 2016</h4>
+                    <p>Hackathon at Tec de Monterrey organized by ACM Monterrey. Responsible for working and coordinating the different organizational areas for the event. </p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/game.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Run Mauro Run - Videogame developed in Java</h3>
+                    <h4>January 2015 - May 2015</h4>
+                    <p>Platform video game for young adults. Developed by a team of 4 using java. Team leader of the project and responsible for programming of the game. </p>
+                    <a class="btn btn-primary" href="https://www.dropbox.com/s/xzz1osyokxyubf9/MAUROBROS-master.zip?dl=0">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/db.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Hospital Database - Database developed using SQL</h3>
+                    <h4>May 2015</h4>
+                    <p>Hospital database project created for mastering the creation and use of databases using SQL. Developed by a team of 4 using SQL. Responsible for DDL revision and SQL queries.</p>
+                    <a class="btn btn-primary" href="https://www.dropbox.com/s/09tel6bcd2fp8o2/BaseDeDatos.txt?dl=0">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/hackmty.jpg" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>HackMTY - Hackahton organized by ACM Monterrey</h3>
+                    <h4>March 2015</h4>
+                    <p>Hackathon at Tec de Monterrey organized by ACM Monterrey. Responsible for working with the different areas like logistics, treasury and branding for the event.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/motor.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Electric Motor - Physics course project</h3>
+                    <h4>November 2014</h4>
+                    <p>Electric motor created from scratch. Created by a team of 4. Materials used were wood, wire, screws and magnets.</p>
+                    <a class="btn btn-primary" href="https://www.dropbox.com/s/y3rfe42ungddoa8/MotorElectrico.zip?dl=0">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/leap.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Leap-Motion Drive-Thru (Facebook Hackathon) - Desktop app developed in Java</h3>
+                    <h4>October 2014</h4>
+                    <p>App that simplifies the drive-thru system at Starbucks using Leap Motion hardware. Developed by a team of 4. Responsible for the implementation of the Leap Motion device using Java.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/cerveza.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Cerveza! - Videogame developed in GameMaker that informs about alcohol precautions</h3>
+                    <h4>November 2013 - December 2013</h4>
+                    <p>Video game developed by a team of 3. Responsible for programming of the game. Developed using Game Maker. Purpose of the game is to promotes alcohol precautions.</p>
+                    <a class="btn btn-primary" href="https://www.dropbox.com/s/w72ksio8zavctic/Videojuego.zip?dl=0">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/design.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>iOS app prototype - Prototype developed using Xcode’s Storyboard and Objective-C</h3>
+                    <h4>October 2013 - December 2013</h4>
+                    <p>Prototype of a planned app for the university concerning the improvement of food services at the university. Developed by a team of 4 for an Interactive Design class. Responsible of all the prototype development using Xcode’s storyboard feature and Objective-C.</p>
+                    <a class="btn btn-primary" href="https://www.dropbox.com/s/9e3178c0yhja7tx/Cafeter%C3%ADas_Tec_3.0_%28Prototipo%29.zip?dl=0">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/portfolio.jpg" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Portfolio - Profesional Evidence Portfolio developed in HTML and CSS</h3>
+                    <h4>October 2013</h4>
+                    <p>Webpage that contains my personal information and projects. Developed individually, independently, using HTML and CSS. Finished complete redoing of portfolio website (June 2016).</p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/facebookHack.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>Easy Essay (Facebook Hackathon) - Web app developed in HTML, CSS and Javascript</h3>
+                    <h4>October 2013</h4>
+                    <p>Web app that aids students write late night essays by identifying repeated words or errors. Developed by a team of 4. Worked on the HTML and CSS development of the app, additionally implemented a flash animation using ActionScript. Moreover helped analyze JavaScript code for bugs. </p>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+
+            <!-- Project -->
+            <div class="row">
+                <div class="col-md-7">
+                        <img class="img-responsive" src="img/projects/ib.png" alt="">
+                </div>
+                <div class="col-md-5">
+                    <h3>IB Computer Science Dossier - Command line app developed in Java</h3>
+                    <h4>August 2012 - December 2012</h4>
+                    <p>Command line based application designed for the manipulation of inventory of a hardware store in Monterrey. Developed individually for IB Computer Science class using Java. </p>
+                    <a class="btn btn-primary" href="https://www.dropbox.com/s/9132byjrgi2g4p2/IB_dossier.zip?dl=0">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+            <!-- /.row -->
+            <hr>
+        </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="content-section text-center">
-        <div class="project-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Projects</h2>
-                    <p>
-                        You can find a complete list of my projects in my linkedin account:
-                    </p>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Contact</h2>
+                    <hr class="primary">
+                    <p>Feel free to email me, call me or send me an inbox!</p>
+                </div>
+                <div class="col-lg-12 text-center">
                     <ul class="list-inline banner-social-buttons">
                         <li>
+                            <a href="https://www.facebook.com/mauro.amarante.5" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/mauro94" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        </li>
+                        <li>
                             <a href="http://mx.linkedin.com/in/mauroamarante" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                        </li>
+                        <li>
+                            <a href="mailto:mauro.amarante94@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">mauro.amarante94@gmail.com</span></a>
                         </li>
                     </ul>
                 </div>
@@ -229,30 +600,7 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Feel free to email me, call me or send me an inbox!</p>
-                <p><a href="mailto:mauro.amarante94@gmail.com">mauro.amarante94@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/mauro.amarante.5" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/mauro94" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="http://mx.linkedin.com/in/mauroamarante" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+        <!-- Footer -->
     <footer>
         <div class="container text-center">
             <p>Copyright &copy; Mauro Amarante 2016</p>
@@ -266,13 +614,13 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
+    <script src="js/scrollreveal.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="js/creative.js"></script>
 
 </body>
 
